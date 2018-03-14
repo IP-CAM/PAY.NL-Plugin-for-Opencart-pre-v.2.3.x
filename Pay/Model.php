@@ -267,7 +267,7 @@ class Pay_Model extends Model {
         $state = $result['paymentDetails']['state'];
         $status = self::STATUS_PENDING;
         $orderStatusId = $statusPending;
-        if ($state == 100) {
+        if ($state == 100 || $state == 95) {
             $status = self::STATUS_COMPLETE;
             $orderStatusId = $statusComplete;
         } else if ($state < 0) {
