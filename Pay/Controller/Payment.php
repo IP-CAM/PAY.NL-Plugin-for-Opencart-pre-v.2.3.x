@@ -71,6 +71,9 @@ class Pay_Controller_Payment extends Controller
 
             $apiStart->setPaymentOptionId($this->_paymentOptionId);
             $amount = round($order_info['total'] * 100);
+            if (isset($order_info['currency_value']) && $order_info['currency_value'] != 1) {
+                $amount = round($amount * $order_info['currency_value']);
+            }
             $apiStart->setAmount($amount);
 
             $apiStart->setCurrency($order_info['currency_code']);
