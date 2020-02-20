@@ -274,7 +274,7 @@ class Pay_Model extends Model {
             $status = self::STATUS_CANCELED;
             $orderStatusId = $statusCanceled;
         }
-        if ($this->isAlreadyPaid($transaction['orderId'])) {
+        if (!empty($transaction['orderId']) && $this->isAlreadyPaid($transaction['orderId'])) {
             // order is al betaald, 
             return self::STATUS_COMPLETE;
         }
