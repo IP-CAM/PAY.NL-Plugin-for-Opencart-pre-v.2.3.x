@@ -37,7 +37,7 @@ Unzip the file and upload everything from the PAY. plugin to the webroot of your
 
 ##### Setup
 
-1. Go to your admin dashboard and navigate to "Extensions" > "Extensions" and in the dropdown menu choose for "Payments"
+1. Go to your admin dashboard and navigate to "Extensions" and in the dropdown menu choose for "Payments"
 2. Install a payment method and fill out any required information.
 3. Click on the edit pubbon on the previously installed payment method.
 4. Enter the API token and service ID (these can be found in the PAY. Admin Panel > https://admin.pay.nl/programs/programs).<br/>If you have filled in your information for one payment method, the other ones will automatically use the same credentials.
