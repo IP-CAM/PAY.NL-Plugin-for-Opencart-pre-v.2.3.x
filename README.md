@@ -8,7 +8,7 @@
 With this PAY. plugin you can add many different payment methods to your OpenCart 2 pre 2.3 webshop. You can go to https://www.pay.nl (Dutch) for an overview of all our features and services, you can also visit https://docs.pay.nl/plugins#opencart-twopointthree for more documentation of our plugin.
 
 - [Description](#description)
-- [Requirements](#description)
+- [Requirements](#requirements)
 - [Available payment methods](#available-payment-methods)
 - [Installation](#installation)
 - [Update instructions](#update-instructions)
