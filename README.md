@@ -17,10 +17,10 @@ With this PAY. plugin you can add many different payment methods to your OpenCar
 
 # Requirements
 - OpenCart min-version 2.0.1.1<br>
-- OpenCart max-version 2.2.0.0 *<br>
+- OpenCart max-version 2.2.0.0<br>
 - At least PHP 5.3
 <br>
-* For 2.3 and higher see https://github.com/paynl/opencart2-plugin
+(For OpenCart 2.3 and higher see https://github.com/paynl/opencart2-plugin)
 
 # Available payment methods
 
